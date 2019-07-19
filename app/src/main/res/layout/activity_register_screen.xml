@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".RegisterScreen">
+
+
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="name and surname"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/username_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name_id"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="-60dp"
+        android:ems="10"
+        android:hint="e-mail"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Spinner
+        android:id="@+id/city_id"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="30dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/cityChooseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/city_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="225dp"
+        android:textColor="@color/colorwhite"
+
+        android:text="Choose your city" />
+
+    <Button
+        android:id="@+id/image_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/username_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="397dp"
+        android:text="Choose"
+        android:background="@color/colorsignin"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/upload_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="463dp"
+        android:background="@color/colorsignin"
+        android:text="Upload" />
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="90dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/layout_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="246dp"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/birthday_id"
+        android:layout_width="121dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="307dp"
+        android:text="Select BirthDate"
+        android:textColor="@color/colorwhite"
+
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="168dp"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/register_btn_id"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/colorsignin"
+        android:text="Register" />
+
+</RelativeLayout>

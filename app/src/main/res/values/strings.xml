@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DigitusTinder</string>
+    <string name="image_view"></string>
+    <string name="etUser">Username</string>
+    <string name="etPass">Password</string>
+    <string name="sign_id">Sign In</string>
+    <string name="register_id">Register ?</string>
+    <string name="showPass">Show Password</string>
+    <string name="forgot_id">Forgot Password</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="cities">
+        <item name="İstanbul"> İstanbul</item>
+        <item name="İzmir"> İzmir </item>
+        <item name="Ankara"> Ankara </item>
+        <item name="Adana"> Adana </item>
+        <item name="Bursa"> Bursa </item>
+
+    </string-array>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

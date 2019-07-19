@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "593463061544",
+    "firebase_url": "https://digitustinder-45345.firebaseio.com",
+    "project_id": "digitustinder-45345",
+    "storage_bucket": "digitustinder-45345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593463061544:android:fcc54c73c2b327d7",
+        "android_client_info": {
+          "package_name": "com.example.digitustinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593463061544-1f4s4hteut7t5ro6ifprhmoea7t9v9as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitustinder",
+            "certificate_hash": "ce7e434a2002c1cfa2fbd3eeb436470649f91264"
+          }
+        },
+        {
+          "client_id": "593463061544-vj6hq50gbgspmbnannegrgmb3h0eco4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNwXSD47OedPl0J4QWFOIwJC3NQcfmeVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593463061544-vj6hq50gbgspmbnannegrgmb3h0eco4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

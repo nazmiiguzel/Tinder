@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="162dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/skype" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="99dp"
+
+
+        android:ems="10"
+        android:hint="@string/etUser"
+
+        android:inputType="textPersonName"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="@string/etPass"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/sign_id"
+        android:onClick="signin_click"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="127dp"
+        android:background="@color/colorsignin"
+        android:text="@string/sign_id" />
+
+    <Button
+        android:id="@+id/register_id"
+        android:onClick="register_click"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="128dp"
+        android:background="@color/colorsignin"
+        android:text="@string/register_id" />
+
+    <CheckBox
+        android:id="@+id/showPass"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="218dp"
+        android:textSize="14sp"
+        android:text="@string/showPass" />
+
+    <TextView
+        android:id="@+id/forgot_id"
+        android:onClick="forgot_click"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="351dp"
+        android:clickable="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/forgot_id"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        android:focusable="true" />
+
+</RelativeLayout>
